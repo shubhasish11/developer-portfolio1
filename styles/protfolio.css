@@ -33,11 +33,20 @@ nav li{
 .text-primary{
  color: #FD6E0A;
 }
+.header{
+  background: #FFF8F3;
+  background-image: url('../images/header_bg.png'),url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+
+}
 /* banner style */
 .banner{
-  margin: 0 200px;
+  margin: 0 60px;
   display: flex;
   align-items: center;
+
+
 }
 
 .banner-title{
@@ -53,4 +62,43 @@ nav li{
   color: #757575;
   font-size: 18px;
   margin-bottom: 30px;
+}
+/* about section*/
+.about{
+  text-align: center;
+  margin-top: 130px;
+  background: #FFF8F3;
+  border-radius: 10px;
+  padding: 130px 150px;
+
+}
+.section-title{
+
+margin-bottom: 30px;
+font-weight: 700;
+font-size: 35px;
+}
+.section-des{
+  color: #757575;
+  font-size: 18;
+  margin-bottom: 30px;
+
+}
+/*main section*/
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about.info-title{
+  color: #757575;
+  font-size: 20px;
+}
+.info-des{
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
 }
